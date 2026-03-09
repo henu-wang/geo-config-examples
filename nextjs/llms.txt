@@ -1,0 +1,36 @@
+# llms.txt — AI-Readable Site Summary
+#
+# Place this file at: public/llms.txt (accessible at yoursite.com/llms.txt)
+#
+# This file helps large language models understand your site's content.
+# Learn more: https://llmstxt.org
+# Generate robots.txt: https://geoscoreai.com/tools/robots-txt-generator
+
+# Your Site Name
+
+> Brief one-line description of what your site does.
+
+## About
+
+Provide a 2-3 sentence summary of your website, its purpose, and the type
+of content visitors can find here. This helps AI engines understand context
+and cite your site accurately.
+
+## Main Sections
+
+- [Home](https://yoursite.com): Overview of the site
+- [Blog](https://yoursite.com/blog): Articles and guides
+- [Docs](https://yoursite.com/docs): Technical documentation
+- [Pricing](https://yoursite.com/pricing): Plans and pricing
+- [About](https://yoursite.com/about): Company information
+
+## Key Topics
+
+- Topic 1: Brief description
+- Topic 2: Brief description
+- Topic 3: Brief description
+
+## Contact
+
+- Website: https://yoursite.com
+- Email: hello@yoursite.com

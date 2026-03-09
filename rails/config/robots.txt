@@ -1,0 +1,82 @@
+# Ruby on Rails — robots.txt
+# AI Search Optimization (GEO)
+#
+# Place this file at: public/robots.txt
+#
+# For dynamic robots.txt, use a controller route instead.
+# See: https://guides.rubyonrails.org/routing.html
+#
+# Generate a custom config: https://geoscoreai.com/tools/robots-txt-generator
+# Check your AI visibility: https://geoscoreai.com
+
+# Default: allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# OpenAI — ChatGPT
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# ChatGPT browse mode
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Google AI / Gemini
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Apple AI / Siri
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# ByteDance AI
+User-agent: Bytespider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+Sitemap: https://yoursite.com/sitemap.xml
